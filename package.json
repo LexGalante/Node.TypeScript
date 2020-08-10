@@ -1,0 +1,24 @@
+{
+  "name": "Node.TypeScript",
+  "version": "1.0.0",
+  "description": "Estudos sobre typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LexGalante/Node.TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LexGalante/Node.TypeScript/issues"
+  },
+  "homepage": "https://github.com/LexGalante/Node.TypeScript#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "systemjs": "^0.21.5"
+  }
+}
