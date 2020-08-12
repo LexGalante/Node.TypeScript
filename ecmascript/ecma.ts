@@ -27,9 +27,8 @@ const { memoria: memoriaNote, cpu: cpuNote, preco: precoNote } = notebook
 // TEMPLATE STRING
 const mensagemPratodos = `Computador ${modelo}, Memória: ${cpu}, Preço: ${preco}`
 // PROMISSE
-const consultaCep = (cep: number = 83065050) => new Promise(() => {
-    fetch(`https://viacep.com.br/ws/${cep}/json/`)
-})
+const consultaCep = (cep: number = 83065050) => fetch(`https://viacep.com.br/ws/${cep}/json/`)
+
 consultaCep()
     .then(result => console.log(result))
     .catch(err => console.error(err))
